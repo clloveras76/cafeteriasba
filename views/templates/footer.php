@@ -10,7 +10,7 @@
 <div class="container">
 <div class="row">
   <div class="col-sm-3 col-md-4">
-	<a href="#"><img id="logoCafeteriasba3" alt="Cafeterías BA" src="<?= \cafeterias\Core\App::urlTo('img/logoCafeteriasBA.svg') ?>"  /></a>  
+	<a target="_self" href="http://cafeteriasba.com/"><img id="logoCafeteriasba3" alt="Cafeterías BA" src="<?= \cafeterias\Core\App::urlTo('img/logoCafeteriasBA.svg') ?>"  /></a>  
   </div>
   <div class="col-sm-6 col-md-4">
 	<h4>Cafeterías BA</h4>

@@ -124,7 +124,7 @@ a:active{text-decoration:none;color:#ccc;}
 /* -----  ver mas btn  ------- */
 
 /* -----  bloq rank  ------- */
-.fawincon{font-weight:bold; padding:5px;}
+.fawincon{font-weight:bold; padding:5px; padding-right: 0px;}
 .titlesection{text-align:center;}
 .ficharank{float:left; padding:10px;}
 .ficharank h3{margin-top:0px;}

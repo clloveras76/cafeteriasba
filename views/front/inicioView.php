@@ -80,8 +80,7 @@ if (Session::has('_errors')){
         </div>
         <div class="col-md-4 vermascont"><div class="boxbtnvmas">
             
-            <a class="vermasbutton" href="<?= \cafeterias\Core\App::urlTo('vercafeteria/' . $datos->getId()) ?>">Ver cafeter&iacutea <i
-                  class="fawincon fa fa-angle-right" aria-hidden="true"></i>
+            <a class="vermasbutton" href="<?= \cafeterias\Core\App::urlTo('vercafeteria/' . $datos->getId()) ?>">Ver cafeter&iacute;a <i class="fawincon fa fa-angle-right" aria-hidden="true"></i>
             </a>
            <?php
 
