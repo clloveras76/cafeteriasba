@@ -1,0 +1,45 @@
+--- 
+files: 
+  certificate: 
+    cafeteriasba_com_c28d2_2e9e3_1561640732_596139055209118ee89a4aa4cc94c1ee: 
+      created: '1530104733'
+      domains: 
+        - cafeteriasba.com
+        - mail.cafeteriasba.com
+        - www.cafeteriasba.com
+      friendly_name: Cert for “cafeteriasba.com”
+      id: cafeteriasba_com_c28d2_2e9e3_1561640732_596139055209118ee89a4aa4cc94c1ee
+      is_self_signed: 1
+      issuer.commonName: cafeteriasba.com
+      issuer.organizationName: ~
+      modulus: c28d2fc5ff1cbd3bd26fc1e25c56bac0dda32070ec1e5176118c14cca65e094f96214aa9b10077f429b9cb9e0bfafb75b3db6a43333f695bcf3c101de27b549f6fade7362c40f71242df47a8c8cb58a7006a40d146ffb8fcb2396703479680d3b3afd53b8c009ba842a8442131c25b1f9634a0ede1ea5c83e7516147a822852d12cd1ef559e56c1581f90767ef8b81c441b77176960b9acc7b01d0520335d26edff5cb9244f56259f599bde86b539cf3dfaea89b3938e166edbb24ab2f3db15079d608a801eaa4fa38ccee7012baa33ae6c40ab92746fb4d92470e0f12333982c9936b6b58e41acef8511f86e5b364c9b4a208f4d6ded54052a6284b9722e9e3
+      modulus_length: 2048
+      not_after: '1561640732'
+      not_before: '1530104732'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: cafeteriasba.com
+      validation_type: ~
+  key: 
+    c28d2_2e9e3_1a909d6c8334df3279795f1106d162ef: 
+      created: '1530104733'
+      friendly_name: Key for “cafeteriasba.com”
+      id: c28d2_2e9e3_1a909d6c8334df3279795f1106d162ef
+      modulus: c28d2fc5ff1cbd3bd26fc1e25c56bac0dda32070ec1e5176118c14cca65e094f96214aa9b10077f429b9cb9e0bfafb75b3db6a43333f695bcf3c101de27b549f6fade7362c40f71242df47a8c8cb58a7006a40d146ffb8fcb2396703479680d3b3afd53b8c009ba842a8442131c25b1f9634a0ede1ea5c83e7516147a822852d12cd1ef559e56c1581f90767ef8b81c441b77176960b9acc7b01d0520335d26edff5cb9244f56259f599bde86b539cf3dfaea89b3938e166edbb24ab2f3db15079d608a801eaa4fa38ccee7012baa33ae6c40ab92746fb4d92470e0f12333982c9936b6b58e41acef8511f86e5b364c9b4a208f4d6ded54052a6284b9722e9e3
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      c28d2fc5ff1cbd3bd26fc1e25c56bac0dda32070ec1e5176118c14cca65e094f96214aa9b10077f429b9cb9e0bfafb75b3db6a43333f695bcf3c101de27b549f6fade7362c40f71242df47a8c8cb58a7006a40d146ffb8fcb2396703479680d3b3afd53b8c009ba842a8442131c25b1f9634a0ede1ea5c83e7516147a822852d12cd1ef559e56c1581f90767ef8b81c441b77176960b9acc7b01d0520335d26edff5cb9244f56259f599bde86b539cf3dfaea89b3938e166edbb24ab2f3db15079d608a801eaa4fa38ccee7012baa33ae6c40ab92746fb4d92470e0f12333982c9936b6b58e41acef8511f86e5b364c9b4a208f4d6ded54052a6284b9722e9e3: 
+        cafeteriasba_com_c28d2_2e9e3_1561640732_596139055209118ee89a4aa4cc94c1ee: ~
+    subject.commonName: 
+      cafeteriasba.com: 
+        cafeteriasba_com_c28d2_2e9e3_1561640732_596139055209118ee89a4aa4cc94c1ee: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “cafeteriasba.com”: cafeteriasba_com_c28d2_2e9e3_1561640732_596139055209118ee89a4aa4cc94c1ee
+  key: 
+    friendly_name: 
+      Key for “cafeteriasba.com”: c28d2_2e9e3_1a909d6c8334df3279795f1106d162ef
+    modulus: 
+      c28d2fc5ff1cbd3bd26fc1e25c56bac0dda32070ec1e5176118c14cca65e094f96214aa9b10077f429b9cb9e0bfafb75b3db6a43333f695bcf3c101de27b549f6fade7362c40f71242df47a8c8cb58a7006a40d146ffb8fcb2396703479680d3b3afd53b8c009ba842a8442131c25b1f9634a0ede1ea5c83e7516147a822852d12cd1ef559e56c1581f90767ef8b81c441b77176960b9acc7b01d0520335d26edff5cb9244f56259f599bde86b539cf3dfaea89b3938e166edbb24ab2f3db15079d608a801eaa4fa38ccee7012baa33ae6c40ab92746fb4d92470e0f12333982c9936b6b58e41acef8511f86e5b364c9b4a208f4d6ded54052a6284b9722e9e3: c28d2_2e9e3_1a909d6c8334df3279795f1106d162ef

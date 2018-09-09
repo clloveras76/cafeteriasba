@@ -1,0 +1,159 @@
+# Webalizer V2.23-08 Incremental Data - 07/13/2018 11:47:33
+2018 7 13 11 47 33
+11 11 8 3 1 5 37809 5 4 0
+1 1 4 1 13
+2 2 678 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 0 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 2 23850 1 2 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 2 678 2 0 0
+0 0 0 0 0 0
+3 3 12603 3 1 1
+1 1 0 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+2 2 678 0
+0 0 0 0
+2 2 23850 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 0 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+4 4 1356 0
+2 2 11925 2
+0 0 0 0
+0
+0
+0
+11
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/assetlinks.json
+0 3 7814716426037852777 1017 0 0
+/
+0 5 0 35775 4 1
+/robots.txt
+0 3 0 1017 0 0
+# End Of Table - urls
+# -sites- (monthly)
+planetlab5.net.in.tum.de
+0 2 2 0 2 1531482453
+/
+researchscan21.comsys.rwth-aachen.de
+0 1 1 11925 1 1531435513
+/
+crawl-66-249-69-183.googlebot.com
+0 1 1 339 0 0
+-
+crawl-66-249-75-95.googlebot.com
+0 2 2 678 0 0
+-
+crawl-66-249-69-179.googlebot.com
+0 1 1 339 0 0
+-
+crawl-66-249-69-72.googlebot.com
+0 1 1 339 0 0
+-
+crawl-66-249-69-70.googlebot.com
+0 1 1 339 0 0
+-
+researchscan20.comsys.rwth-aachen.de
+0 2 2 23850 1 1530942833
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+planetlab5.net.in.tum.de
+0 1 1 0 1 1531482453
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 11
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 6
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t12sns; +http://researchscan.comsys.rwth-aachen.de)
+0 1
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t13rl; +http://researchscan.comsys.rwth-aachen.de)
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 2
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t12ca; +http://researchscan.comsys.rwth-aachen.de)
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

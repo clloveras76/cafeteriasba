@@ -1,0 +1,305 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201809 will be lost/reset.
+# Last config file used to build this data file was /home/cafeteri/tmp/awstats/awstats.cafeteriasba.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2696                
+POS_VISITOR 6527                
+POS_DAY 7236                
+POS_DOMAIN 3304                
+POS_LOGIN 3604                
+POS_ROBOT 3759                
+POS_WORMS 4030                
+POS_EMAILSENDER 4161                
+POS_EMAILRECEIVER 4304                
+POS_SESSION 7452                
+POS_SIDER 7646                
+POS_FILETYPES 4439                
+POS_DOWNLOADS 4691                
+POS_OS 4739                
+POS_BROWSER 4884                
+POS_SCREENSIZE 5192                
+POS_UNKNOWNREFERER 5266                
+POS_UNKNOWNREFERERBROWSER 5353                
+POS_ORIGIN 5435                
+POS_SEREFERRALS 5570                
+POS_PAGEREFS 5736                
+POS_SEARCHWORDS 5913                
+POS_KEYWORDS 6065                
+POS_MISC 2359                
+POS_ERRORS 6124                
+POS_CLUSTER 3460                
+POS_SIDER_404 6218                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180908000022 426 90053 16886886452504
+FirstTime 20180901211153
+LastTime 20180907231554
+LastUpdate 20180908005833 426 0 426 0 0
+TotalVisits 20                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 37 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 5 510652
+1 0 0 0 2 10 557333
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 2 2 23690 0 0 0
+6 0 0 0 0 2 88399
+7 1 1 11909 0 2 18667
+8 17 45 3115794 2 18 5424
+9 74 179 4429398 0 3 1111
+10 33 93 6326049 0 0 0
+11 3 15 1106839 0 0 0
+12 2 13 1006211 2 8 2735
+13 0 0 0 0 0 0
+14 4 20 1772909 0 3 1017
+15 6 33 717673 0 7 2394
+16 0 0 0 0 0 0
+17 1 1 11909 0 0 0
+18 3 11 839051 0 2 684
+19 1 1 16621 0 0 0
+20 0 0 0 0 0 0
+21 3 3 35535 0 2 681
+22 0 0 0 1 1 11845
+23 2 12 807248 2 2 21069
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+ar 137 402 18808705
+us 10 22 1348130
+gb 2 2 23690
+hu 1 1 11845
+it 1 1 11845
+zz 1 1 16621
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Googlebot/ 22 1090875 20180908000022 5
+Googlebot\-Image/ 2 106388 20180902075529 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 11845 20180903225634 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+php 17 6313 0 0
+css 66 3283560 0 0
+jpg 92 6763371 0 0
+svg 30 330920 0 0
+png 30 1006734 0 0
+map 2 778574 0 0
+Unknown 64 249660 0 0
+woff2 12 216336 0 0
+html 57 562409 0 0
+js 59 7022959 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win7 4 4
+ios_iphone 26 4
+linuxandroid 17 5
+win10 378 135
+linux 1 1
+macosx12 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+firefox55.0 1 1
+chrome61.0.3163.100 3 3
+chrome56.0.2924.87 1 1
+chrome66.0.3359.139 11 3
+chrome68.0.3440.91 17 5
+chrome64.0.3282.186 1 1
+safari11.0 26 4
+firefox61.0 285 109
+chrome31.0.1650.57 1 1
+chrome68.0.3440.106 81 22
+chrome55.0.2883.87 1 1
+msie11.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 79 81
+From1 0 0
+From2 1 1
+From3 1 1
+From4 71 346
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com_ar 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://greatnewblogs.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 1 239
+302 2 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 16
+190.111.211.116 112 304 13511152 20180907104831
+170.51.242.156 12 28 1838587 20180907084306
+170.51.242.158 6 33 717673 20180907152619
+66.249.85.29 4 8 232081 20180907090911
+186.141.201.12 3 15 1106839 20180907115914
+52.53.201.78 3 3 35727 20180906175108
+200.68.69.61 3 11 839051 20180907184021
+163.172.4.153 2 2 23690 20180905235604
+186.143.198.70 1 11 795403 20180907231554
+52.165.148.51 1 1 11845 20180904213251
+84.236.87.66 1 1 11845 20180905054428
+164.132.119.83 1 1 11845 20180904092721
+52.165.129.203 1 1 11845 20180901211153
+206.223.249.88 1 1 16621 20180907191812
+66.249.85.28 1 6 753719 20180903125212
+66.249.85.27 0 3 302913 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20180901 1 1 11845 1
+20180902 2 2 23754 2
+20180903 2 13 1006147 2
+20180904 7 23 1808508 4
+20180905 2 2 23690 2
+20180906 1 1 11909 1
+20180907 137 387 17334983 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+30mn-1h 1
+2mn-5mn 1
+0s-30s 14
+1h+ 1
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/ 57 562409 17 15
+/auth/login 27 122117 0 0
+/index.php 17 6313 0 0
+/fonts/glyphicons-halflings-regular.woff2 12 216336 0 0
+/panel 10 23571 2 1
+/vercafeteria/101 7 40109 1 2
+/abmcafeterias 4 39720 0 0
+/img/especificaciones-t 3 1017 0 0
+/vercafeteria/4 2 8668 0 1
+/css/bootstrap.css.map 2 778574 0 1
+/ajax_favoritos/101 2 1702 0 0
+/admin 2 908 0 0
+/desarrollo_lalo 2 678 0 0
+/vercafeteria/1 1 4324 0 0
+/ajax_favoritos/3 1 825 0 0
+/ajax_favoritos/4 1 825 0 0
+/vercafeteria/5 1 4371 0 0
+/ajax_favoritos/5 1 825 0 0
+END_SIDER
