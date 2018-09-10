@@ -165,7 +165,7 @@ if (Session::has('_errors')){
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title" id="mainTitleModal">Ingresa ahora</h2>
+        <h2 class="modal-title" id="mainTitleModal">Ingresá ahora</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -176,12 +176,15 @@ if (Session::has('_errors')){
           <div class="col-xs-12 col-md-6">
             <form method="post" action="<?= \cafeterias\Core\App::urlTo('auth/login') ?>" >
               <h3>Iniciar Sesion</h3>
+			  <label for="email">Email</label>
               <input type="text" class="form-control" name="email" placeholder="Email" 
                      value="<?php if (isset($_old_input['email'])) {
              echo($_old_input['email']);
-  } ?>">
+  } ?>">		
+			  <label for="email">Password</label>
               <input type="password" class="form-control" name="password" placeholder="Password">
-              <div class="boxbtnvmas"><input type="submit" value="Ingresar" /></div>
+              <div class="boxbtnvmas"><input class="vermasbutton" type="submit" value="Ingresar" /></div>
+			 
               
               <?php if (isset($_errors['nocoincide'])) {
       echo('<p>'.$_errors['nocoincide'].'</p>'); } ?> 
@@ -194,7 +197,7 @@ if (Session::has('_errors')){
 
             <form method="POST" accept-charset="utf-8" action="<?= \cafeterias\Core\App::urlTo('/register') ?>" id="registrousuario">
               <h3>Registro</h3>
-              <label for="email">email</label>
+              <label for="email">Email</label>
               <input type="text" id="email_re" name="email_re" class="form-control" 
               placeholder="Email" value="
               <?php 
@@ -211,10 +214,10 @@ if (Session::has('_errors')){
                 
             } ?> 
               
-              <label for="pass">password</label>
-              <input type="password" id="pass" name="pass" name="pass" type="password" class="form-control" placeholder="Contrase&ntilde;a" required />
-              <label for="pass2">Password repetir</label>
-              <input type="password" id="pass2" name="pass2" class="form-control" placeholder="Repetir contrase&ntilde;a" required />
+              <label for="pass">Password</label>
+              <input type="password" id="pass" name="pass" name="pass" type="password" class="form-control" placeholder="Password" required />
+              <label for="pass2">Repetir password</label>
+              <input type="password" id="pass2" name="pass2" class="form-control" placeholder="Repetir password" required />
               
             <?php if (isset($_errors['pass'][0])) {
                       
@@ -223,7 +226,7 @@ if (Session::has('_errors')){
             ?> 
               <div class="boxbtnvmas">
 
-                <input type="submit" value="Registrarse" id="registro_usuario" />
+                <input type="submit" value="Registrarse" id="registro_usuario" class="vermasbutton" />
 
               </div>
             </form>

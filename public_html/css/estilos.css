@@ -68,19 +68,22 @@ a:active{text-decoration:none;color:#ccc;}
 
 #userMenu li{
 	display:inline;
-	padding:6px 12px 6px 12px;
+	padding:8px 12px 8px 12px;
 	margin-left:10px;
 	margin-right:10px;
 }
-#userMenu .regbutton{background-color:#91303a;}
+#userMenu .regbutton{background-color:#91303a;cursor:pointer;}
 
-#userMenu li a, #mainMenu li a{color:#fff;font-size:16px; font-weight:bold;}
+#userMenu li a, #mainMenu li a{color:#fff;font-size:14px; font-weight:bold;}
 .navbar-collapse{border-top:0px;}
 #mainMenu li{
 	display:inline;
 	padding:10px;
 	margin-left:20px;
 	margin-right:20px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #91303a;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
@@ -111,12 +114,26 @@ a:active{text-decoration:none;color:#ccc;}
 
 /* -----  ver mas btn  ------- */
 .vermascont{text-align:right;display: table;height:115px;}
-.vermasbutton{	padding:10px 15px 10px 15px; background-color:#91303a;color:#fff;font-weight: bold;}
-.vermasbutton:hover{color:#FFC501;text-decoration:none;}
+.vermasbutton{	padding:10px 15px 10px 15px; background-color:#91303a;color:#fff;font-weight: bold; border:0px;}
+.vermasbutton:hover{
+	color:#FFC501;
+	text-decoration:none;
+	-webkit-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+	-moz-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+	box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+}
+.vermasbutton:focus{color:#FFC501;text-decoration:none;}
 .boxbtnvmas{display: table-cell;
 	vertical-align: middle;}
 .btncenterblq{text-align:center;margin:auto; display:block; width:260px;margin-bottom:20px;margin-top:10px;}
-.btncenterblq:hover{color:#FFC501;text-decoration:none;}	
+.btncenterblq:hover{
+	color:#FFC501;
+	text-decoration:none;
+	-webkit-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+	-moz-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+	box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+}	
+.btncenterblq:focus{color:#FFC501;text-decoration:none;}	
 .htstyle{margin-bottom:10px;margin-top:10px;}
 /* -----  ver mas btn  ------- */
 
@@ -131,8 +148,9 @@ a:active{text-decoration:none;color:#ccc;}
 .ficharank p{margin:0px;}
 
 
-.cardRanking{background-color:#F9F8F8;padding:5px; border: solid 1px #ccc;border-radius:2px; margin-bottom:10px; margin-left: 0px;     margin-right: 0px;}
+.cardRanking{background-color:#F9F8F8;padding:5px; border: solid 1px #ddd;border-radius:2px; margin-bottom:10px; margin-left: 0px;     margin-right: 0px;}
 .starspoints{color:#FFC501; margin-left:2px;margin-right:2px;}
+.resenaUser .starspoints{font-size: 15px!important;}
 .usrmn{text-align:right;}
 /* -----  bloq rank  ------- */
 
@@ -147,7 +165,13 @@ a:active{text-decoration:none;color:#ccc;}
 	padding-bottom:20px;
 }
 .searchbarbutton{	padding:10px 15px 10px 15px; background-color:#91303a;color:#fff;font-weight: bold; width:100%;height:40px;line-height:1;border:0px;}
-.searchbarbutton:hover{color:#FFC501;text-decoration:none;}
+.searchbarbutton:hover{
+	color:#FFC501;
+	text-decoration:none;
+	-webkit-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+	-moz-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+	box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+	}
 
 .iconsearchbar{padding-left:5px;padding-right:5px; float:right;}
 .bloqsearch h1{color:#fff; text-align:center; font-weight:bold; font-size:27px;padding-top:5px;padding-bottom:5px;    margin-top: 5px; }
@@ -156,7 +180,13 @@ a:active{text-decoration:none;color:#ccc;}
 /* -----  bloq search  ------- */
 
 .vermasnotabtn{color:#91303a; border-radius:0px;border: solid 1px #91303a;}
-.vermasnotabtn:hover{background-color:#91303a;color:#fff;}
+.vermasnotabtn:hover{
+	background-color:#91303a;
+	color:#fff;
+	-webkit-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+	-moz-box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);
+	box-shadow: 3px 3px 6px -1px rgba(0,0,0,0.18);	
+	}
 
 
 footer {
@@ -231,7 +261,7 @@ footer {
 	width: 33%;
 }
 .detailcafe .container .horarios{
-	background-color: #ffc40099;
+	background-color: #ffc400bd;
 	margin: 5px;
 	padding: 7px;
 	width: 25%;
@@ -259,10 +289,16 @@ footer {
 .resumenC .detalleResumenC{
 	width: 47%;
 }
+.iconservicios{margin-right: 15px;}
 .mapa{
 	text-align: center;
-	width: 52%;
+	width: 45%;
 	padding: 10px;
+	position: relative;
+	padding-bottom: 30%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+	margin-left: 8%;
 }
 .mapa img{
 	width:100%;
@@ -270,12 +306,30 @@ footer {
     border-radius: 2px;
 }
 
+.mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 @media only screen and (max-width: 920px) {
 .resumenC{display:block;}
-.resumenC .detalleResumenC, .mapa{
+.resumenC .detalleResumenC{
 	width:100%!important;
 	padding: 0px;
 }	
+
+ .mapa{
+	width:100%!important;
+	padding: 0px;
+	padding-bottom: 35%;
+	margin-left: 0px;
+}	
+
+
+
 .detailcafe .container .horarios {
 	display:none;
 }	
@@ -300,6 +354,10 @@ footer {
 	flex-direction: row;
 	justify-content: flex-start;
 }
+
+.breadcrumb{background-color:#fff;padding-left: 0px;}
+.breadcrumb a{color:#91303a;}
+
 .promosC{
 	list-style: none;
 	display: flex;
@@ -309,6 +367,12 @@ footer {
 }
 .promosC img{
 	width: 100%;
+}
+.bloqueResena{
+	border: solid 1px #ccc;
+    border-radius: 2px;
+	padding: 1.2%;
+	background-color: #f9f8f8;
 }
 .txtPromo{
 	margin: 0 !important;
@@ -323,12 +387,6 @@ footer {
 	margin-left: 15px;
 }
 
-.bloqueRese�a{
-	border: solid 1px #ccc;
-    border-radius: 2px;
-	padding: 1.2%;
-	background-color: #f9f8f8;
-}
 .califyprecio{
 	margin-top: 15px;	
 	/*display: flex;
@@ -345,14 +403,15 @@ footer {
    width: 90px;
    -webkit-position: relative;
 }
-.califyprecio .loadimgs::before {
-  /*content: 'Select some files';*/
-  content: "\f0ee";
+.califyprecio .loadimgs {
+width: 140px;
+/* 
   font-family: "FontAwesome";
+  content:"\f382";
   display: inline-block;
   background: #f9f8f8;
   border: 1px solid #ccc;
-  padding: 2px 60px;
+  padding: 2px 63px;
   outline: none;
   white-space: nowrap;
   -webkit-user-select: none;
@@ -362,21 +421,28 @@ footer {
   visibility: visible;
   position: absolute;
   color:#91303a;
-}
-.califyprecio .loadimgs:hover::before {
-  border-color: #91303a;
-}
-.califyprecio .loadimgs:active::before {
-  background-color: #91303a;
-  color:#fff;
+  */
 }
 
 
+.imgnota{
+    padding: 10px; 
+	padding-top:0px;
+}
+.imgnota img{
+	width:100%;
+}
+.infonotascont .resumenC{
+    align-items: flex-start;
+}
+.sbtitlenota{
+    margin-bottom:20px;
+	    color: #333;
 
-
+}
 
 .califyprecio .starspoints {
-	font-size:22px;
+	font-size:18px; margin-right: 0px;
 }
 
 .starshowheader .starspoints{font-size:18px;}
@@ -384,7 +450,8 @@ footer {
 .starshowheader .starspoints {
     font-size: 11px;
 }	
-}	
+}
+.bloqueResena .califyprecio{font-size:14px!important;}	
 .califyprecio .starasignbox{float:left;margin-right:15px;}
 .califyprecio .boxbtnvmas{float:right;}
 .califyprecio input[type="button"]{
@@ -397,9 +464,9 @@ footer {
 
 .bloqueComentarios .comentario{
 	margin-top: 1%;	
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	/*display: flex;*/
+	/*flex-direction: row;
+	justify-content: space-around;*/
 	background-color: #f9f8f8;
 	align-items: center;
 	padding: 5px;
@@ -408,7 +475,7 @@ footer {
 }
 
 .bloqueComentarios .comentario .imgUser{
-	width: 10%;
+	/*width: 10%;*/
 }
 .bloqueComentarios .comentario .imgUser img{
 	width: 100%;
@@ -416,34 +483,44 @@ footer {
 .bloqueComentarios .comentario .imgUser img{
 	border: solid 1px #ccc;
 }
-.bloqueComentarios .comentario .rese�aUser{
-	width: 60%;
+.bloqueComentarios .comentario .resenaUser{
+	/*width: 60%;*/
+}
+.bloqueComentarios .comentario .resenaUser p{
+	font-size:14px;
 }
 .bloqueComentarios .comentario .detailUser{
-	width: 22%;
+	/*width: 22%;*/
+}
+.bloqueComentarios .comentario .detailUser p{
+	font-size:14px;
 }
 .bloqueComentarios .comentario .detailUser h3{
 	margin-top:10px;
 }
-.bloqueComentarios .comentario .rese�aUser .starspoints {
+.bloqueComentarios .comentario .resenaUser .starspoints {
 	font-size:18px;
 }
 .textareaW{
 	width: 100%;
+	font-size:14px;
 }
 .textareaW textarea{
 	width: 100%;
+	border: solid 1px #ddd;
 }
 
 @media only screen and (max-width: 780px) {
 .califyprecio .loadimgs {
-    display: block;/* width: 145px;*/
+    display: block;
 	margin-bottom:15px;
 	margin-top:10px;
 }
 .califyprecio .starasignbox{display:block; width:100%;}
 .califyprecio .boxbtnvmas{margin-bottom:10px;}
-.bloqueComentarios .comentario .imgUser{display:none;}
+.bloqueComentarios .comentario {margin-bottom:10px;}
+
+.starresponcont{display:block;}
 
 }
 
@@ -473,5 +550,5 @@ footer {
 #mainmodallogin form .boxbtnvmas{
     padding-top: 8px;
 }
-
+.modal input{margin-bottom: 10px;}
 /*------------------------------------------------------------------------- Fin login Registro ---------------------------------------------------------------------------------------------------------------------------------*/
